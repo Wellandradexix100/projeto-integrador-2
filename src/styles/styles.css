@@ -132,3 +132,70 @@ body {
 .toggle-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  .titulo {
+    margin-top: 0;
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .puzzle-bg {
+    flex-direction: column;
+  }
+
+  .piece-blue {
+    width: 100%;
+  }
+  .piece-red {
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 40px;
+  }
+
+  .piece-yellow {
+    background-color: transparent;
+  }
+  .piece-red {
+    border-left: none;
+    clip-path: none;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .piece-blue,
+  .piece-red {
+    font-size: 30px;
+  }
+
+  .piece-red {
+    clip-path: none;
+  }
+
+  .form-container {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .toggle-link {
+    font-size: 12px;
+  }
+}
