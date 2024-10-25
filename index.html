@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <title>Login - Quebra-cabeça</title>
+  </head>
+  <body>
+    <div class="puzzle-bg">
+      <div class="piece-blue">
+        <div>InterAção</div>
+      </div>
+      <div class="piece-red">
+        <div class="piece-yellow">
+          <div class="form-container">
+            <h1>USUÁRIO</h1>
+            <input id="loginUsername" type="text" placeholder="Usuário" />
+            <h1>SENHA</h1>
+            <input id="loginPassword" type="password" placeholder="Senha" />
+            <p id="loginError" class="error-message"></p>
+            <button onclick="login()">LOGIN</button>
+            <button>Entrar com Google</button>
+            <a href="register.html" class="toggle-link"
+              >Não tem uma conta? Cadastre-se</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./src/scripts/login-registro.js"></script>
+  </body>
+</html>

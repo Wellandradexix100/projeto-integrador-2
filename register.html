@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/styles-register.css" />
+    <title>Cadastro - Quebra-cabeça</title>
+  </head>
+  <body>
+    <h1 class="cadastro-titulo">CADASTRE-SE</h1>
+    <div class="puzzle-bg">
+      <div class="piece-blue">
+        <div class="form-container-register">
+          <h1>NOME COMPLETO</h1>
+          <input type="text" id="fullName" placeholder="Nome Completo" />
+          <h1>USUÁRIO</h1>
+          <input type="text" id="registerUsername" placeholder="Usuário" />
+          <h1>SENHA</h1>
+          <input type="password" id="registerPassword" placeholder="Senha" />
+          <h1>CONFIRMAÇÃO DE SENHA</h1>
+          <input type="password" id="confirmPassword" placeholder="Senha" />
+          <p id="registerError" class="error-message"></p>
+          <button onclick="register()">Inscrever</button>
+          <p class="toggle-link">
+            <a href="index.html" class="toggle-link"
+              >Já tem uma conta? Faça login</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="piece-red"></div>
+    </div>
+    <script src="./src/scripts/login-registro.js"></script>
+  </body>
+</html>
