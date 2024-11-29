@@ -103,6 +103,11 @@ body {
   border-radius: 5px;
 }
 
+.form-container button a {
+  text-decoration: none;
+  color: white;
+}
+
 .form-container button {
   width: 100%;
   padding: 10px;
