@@ -59,7 +59,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: solid 2px #09ff00;
 }
 
 .piece-yellow {
@@ -92,7 +91,7 @@ body {
 }
 
 .form-container h1 {
-  margin-bottom: 20px;
+  margin: 20px;
   font-size: 24px;
 }
 
